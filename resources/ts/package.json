@@ -27,7 +27,7 @@
   "bugs": {
     "url": "https://github.com/guardrails-ai/hub-types/issues"
   },
-  "homepage": "https://github.com/guardrails-ai/hub-types/resources/hub/ts/README.md",
+  "homepage": "https://github.com/guardrails-ai/hub-types/resources/ts/README.md",
   "engines": {
     "node": ">=18.0.0"
   },
