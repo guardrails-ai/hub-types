@@ -146,11 +146,15 @@ ___
 
 ### metadata
 
-• `Optional` **metadata**: `object`
+• `Optional` **metadata**: `Object`
 
 **`Memberof`**
 
 Manifest
+
+#### Index signature
+
+▪ [key: `string`]: `any`
 
 #### Defined in
 

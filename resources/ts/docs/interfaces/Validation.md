@@ -71,7 +71,7 @@ Validation
 
 #### Index signature
 
-▪ [key: `string`]: `Set`\<`string`\>
+▪ [key: `string`]: `string`[]
 
 #### Defined in
 
@@ -277,7 +277,7 @@ ___
 
 ### required
 
-• `Optional` **required**: `Set`\<`string`\>
+• `Optional` **required**: `string`[]
 
 **`Memberof`**
 

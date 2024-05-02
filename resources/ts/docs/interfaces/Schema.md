@@ -353,7 +353,7 @@ Schema
 
 #### Index signature
 
-▪ [key: `string`]: `Set`\<`any`\>
+▪ [key: `string`]: `any`[]
 
 #### Defined in
 
@@ -371,7 +371,7 @@ Schema
 
 #### Index signature
 
-▪ [key: `string`]: `Set`\<`string`\>
+▪ [key: `string`]: `string`[]
 
 #### Defined in
 
@@ -771,7 +771,7 @@ ___
 
 ### required
 
-• `Optional` **required**: `Set`\<`any`\>
+• `Optional` **required**: `any`[]
 
 **`Memberof`**
 

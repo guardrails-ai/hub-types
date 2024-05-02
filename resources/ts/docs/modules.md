@@ -1321,7 +1321,7 @@ Check if a given object implements the Applicator interface.
 
 | Name | Type |
 | :------ | :------ |
-| `value` | `object` |
+| `value` | `Object` |
 
 #### Returns
 
@@ -1343,7 +1343,7 @@ Check if a given object implements the Content interface.
 
 | Name | Type |
 | :------ | :------ |
-| `value` | `object` |
+| `value` | `Object` |
 
 #### Returns
 
@@ -1365,7 +1365,7 @@ Check if a given object implements the Contributor interface.
 
 | Name | Type |
 | :------ | :------ |
-| `value` | `object` |
+| `value` | `Object` |
 
 #### Returns
 
@@ -1387,7 +1387,7 @@ Check if a given object implements the Core interface.
 
 | Name | Type |
 | :------ | :------ |
-| `value` | `object` |
+| `value` | `Object` |
 
 #### Returns
 
@@ -1409,7 +1409,7 @@ Check if a given object implements the FormatAnnotation interface.
 
 | Name | Type |
 | :------ | :------ |
-| `value` | `object` |
+| `value` | `Object` |
 
 #### Returns
 
@@ -1431,7 +1431,7 @@ Check if a given object implements the Manifest interface.
 
 | Name | Type |
 | :------ | :------ |
-| `value` | `object` |
+| `value` | `Object` |
 
 #### Returns
 
@@ -1453,7 +1453,7 @@ Check if a given object implements the MetaData interface.
 
 | Name | Type |
 | :------ | :------ |
-| `value` | `object` |
+| `value` | `Object` |
 
 #### Returns
 
@@ -1475,7 +1475,7 @@ Check if a given object implements the ModelAuth interface.
 
 | Name | Type |
 | :------ | :------ |
-| `value` | `object` |
+| `value` | `Object` |
 
 #### Returns
 
@@ -1497,7 +1497,7 @@ Check if a given object implements the Repository interface.
 
 | Name | Type |
 | :------ | :------ |
-| `value` | `object` |
+| `value` | `Object` |
 
 #### Returns
 
@@ -1519,7 +1519,7 @@ Check if a given object implements the Schema interface.
 
 | Name | Type |
 | :------ | :------ |
-| `value` | `object` |
+| `value` | `Object` |
 
 #### Returns
 
@@ -1561,7 +1561,7 @@ Check if a given object implements the Tags interface.
 
 | Name | Type |
 | :------ | :------ |
-| `value` | `object` |
+| `value` | `Object` |
 
 #### Returns
 
@@ -1583,7 +1583,7 @@ Check if a given object implements the Unevaluated interface.
 
 | Name | Type |
 | :------ | :------ |
-| `value` | `object` |
+| `value` | `Object` |
 
 #### Returns
 
@@ -1605,7 +1605,7 @@ Check if a given object implements the Validation interface.
 
 | Name | Type |
 | :------ | :------ |
-| `value` | `object` |
+| `value` | `Object` |
 
 #### Returns
 
@@ -1627,7 +1627,7 @@ Check if a given object implements the ValidationType interface.
 
 | Name | Type |
 | :------ | :------ |
-| `value` | `object` |
+| `value` | `Object` |
 
 #### Returns
 
