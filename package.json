@@ -13,9 +13,9 @@
     "typescript": "^5.4.5"
   },
   "scripts": {
-    "ts-gen": "rm -rf ./build/ts && openapi-generator-cli generate --generator-key hub-ts",
     "openapi-gen": "rm -rf ./build/json-schema.json && rm -rf ./build/openapi-spec.json && node ./resources/gen-openapi-spec.js;",
     "py-gen": "rm -rf ./build/py && openapi-generator-cli generate --generator-key hub-py",
+    "ts-gen": "rm -rf ./build/ts && openapi-generator-cli generate --generator-key hub-ts",
     "valiate-openapi-spec": "node ./resources/validate-openapi-spec.js",
     "valiate-json-schema": "node ./resources/validate-json-schema.js"
   },
