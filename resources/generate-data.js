@@ -13,7 +13,7 @@ const {
 
 
 async function generateData () {
-  const hubSchemaFile = fs.readFileSync(resolve('schemas/hub/hyper-bundle.json')).toString();
+  const hubSchemaFile = fs.readFileSync(resolve('build/json-schema.json')).toString();
   const hubSchema = JSON.parse(hubSchemaFile);
 
   JSONSchemaFaker.format({
