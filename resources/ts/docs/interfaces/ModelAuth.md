@@ -26,7 +26,7 @@ ModelAuth
 
 #### Defined in
 
-ModelAuth.ts:41
+ModelAuth.ts:38
 
 ___
 
@@ -40,13 +40,13 @@ ModelAuth
 
 #### Defined in
 
-ModelAuth.ts:35
+ModelAuth.ts:32
 
 ___
 
 ### type
 
-• **type**: [`ModelAuthType`](ModelAuthType.md)
+• **type**: ``"apiKey"``
 
 **`Memberof`**
 
@@ -54,4 +54,4 @@ ModelAuth
 
 #### Defined in
 
-ModelAuth.ts:29
+ModelAuth.ts:26

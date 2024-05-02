@@ -14,7 +14,6 @@
 - [Manifest](interfaces/Manifest.md)
 - [MetaData](interfaces/MetaData.md)
 - [ModelAuth](interfaces/ModelAuth.md)
-- [ModelAuthType](interfaces/ModelAuthType.md)
 - [Repository](interfaces/Repository.md)
 - [Schema](interfaces/Schema.md)
 - [Tags](interfaces/Tags.md)
@@ -24,6 +23,7 @@
 
 ### Type Aliases
 
+- [ModelAuthTypeEnum](modules.md#modelauthtypeenum)
 - [SimpleTypes](modules.md#simpletypes)
 - [TagsCertificationEnum](modules.md#tagscertificationenum)
 - [TagsContentTypeEnum](modules.md#tagscontenttypeenum)
@@ -34,6 +34,7 @@
 
 ### Variables
 
+- [ModelAuthTypeEnum](modules.md#modelauthtypeenum-1)
 - [SimpleTypes](modules.md#simpletypes-1)
 - [TagsCertificationEnum](modules.md#tagscertificationenum-1)
 - [TagsContentTypeEnum](modules.md#tagscontenttypeenum-1)
@@ -68,9 +69,6 @@
 - [ModelAuthFromJSON](modules.md#modelauthfromjson)
 - [ModelAuthFromJSONTyped](modules.md#modelauthfromjsontyped)
 - [ModelAuthToJSON](modules.md#modelauthtojson)
-- [ModelAuthTypeFromJSON](modules.md#modelauthtypefromjson)
-- [ModelAuthTypeFromJSONTyped](modules.md#modelauthtypefromjsontyped)
-- [ModelAuthTypeToJSON](modules.md#modelauthtypetojson)
 - [RepositoryFromJSON](modules.md#repositoryfromjson)
 - [RepositoryFromJSONTyped](modules.md#repositoryfromjsontyped)
 - [RepositoryToJSON](modules.md#repositorytojson)
@@ -100,7 +98,6 @@
 - [instanceOfManifest](modules.md#instanceofmanifest)
 - [instanceOfMetaData](modules.md#instanceofmetadata)
 - [instanceOfModelAuth](modules.md#instanceofmodelauth)
-- [instanceOfModelAuthType](modules.md#instanceofmodelauthtype)
 - [instanceOfRepository](modules.md#instanceofrepository)
 - [instanceOfSchema](modules.md#instanceofschema)
 - [instanceOfSimpleTypes](modules.md#instanceofsimpletypes)
@@ -110,6 +107,18 @@
 - [instanceOfValidationType](modules.md#instanceofvalidationtype)
 
 ## Type Aliases
+
+### ModelAuthTypeEnum
+
+Ƭ **ModelAuthTypeEnum**: typeof [`ModelAuthTypeEnum`](modules.md#modelauthtypeenum-1)[keyof typeof [`ModelAuthTypeEnum`](modules.md#modelauthtypeenum-1)]
+
+#### Defined in
+
+ModelAuth.ts:44
+
+ModelAuth.ts:47
+
+___
 
 ### SimpleTypes
 
@@ -194,6 +203,26 @@ Tags.ts:126
 Tags.ts:136
 
 ## Variables
+
+### ModelAuthTypeEnum
+
+• `Const` **ModelAuthTypeEnum**: `Object`
+
+**`Export`**
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `ApiKey` | ``"apiKey"`` |
+
+#### Defined in
+
+ModelAuth.ts:44
+
+ModelAuth.ts:47
+
+___
 
 ### SimpleTypes
 
@@ -810,7 +839,7 @@ ___
 
 #### Defined in
 
-ModelAuth.ts:53
+ModelAuth.ts:59
 
 ___
 
@@ -831,7 +860,7 @@ ___
 
 #### Defined in
 
-ModelAuth.ts:57
+ModelAuth.ts:63
 
 ___
 
@@ -851,68 +880,7 @@ ___
 
 #### Defined in
 
-ModelAuth.ts:71
-
-___
-
-### ModelAuthTypeFromJSON
-
-▸ **ModelAuthTypeFromJSON**(`json`): [`ModelAuthType`](interfaces/ModelAuthType.md)
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `json` | `any` |
-
-#### Returns
-
-[`ModelAuthType`](interfaces/ModelAuthType.md)
-
-#### Defined in
-
-ModelAuthType.ts:29
-
-___
-
-### ModelAuthTypeFromJSONTyped
-
-▸ **ModelAuthTypeFromJSONTyped**(`json`, `ignoreDiscriminator`): [`ModelAuthType`](interfaces/ModelAuthType.md)
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `json` | `any` |
-| `ignoreDiscriminator` | `boolean` |
-
-#### Returns
-
-[`ModelAuthType`](interfaces/ModelAuthType.md)
-
-#### Defined in
-
-ModelAuthType.ts:33
-
-___
-
-### ModelAuthTypeToJSON
-
-▸ **ModelAuthTypeToJSON**(`value?`): `any`
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `value?` | ``null`` \| [`ModelAuthType`](interfaces/ModelAuthType.md) |
-
-#### Returns
-
-`any`
-
-#### Defined in
-
-ModelAuthType.ts:40
+ModelAuth.ts:77
 
 ___
 
@@ -1515,29 +1483,7 @@ Check if a given object implements the ModelAuth interface.
 
 #### Defined in
 
-ModelAuth.ts:47
-
-___
-
-### instanceOfModelAuthType
-
-▸ **instanceOfModelAuthType**(`value`): `boolean`
-
-Check if a given object implements the ModelAuthType interface.
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `value` | `object` |
-
-#### Returns
-
-`boolean`
-
-#### Defined in
-
-ModelAuthType.ts:25
+ModelAuth.ts:53
 
 ___
 

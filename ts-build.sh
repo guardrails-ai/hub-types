@@ -20,6 +20,9 @@ cd ./resources/ts;
 # Install Dependencies
 npm ci;
 
+# Run QA w/ Auto-Fixes
+npm run qa
+
 # Build the Typescript library
 npm run build;
 
