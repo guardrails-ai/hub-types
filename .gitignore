@@ -9,4 +9,5 @@ resources/py/guardrails_hub_types
 resources/py/.gitignore
 resources/py/requirements.txt
 resources/py/setup.py
+resources/py/.ruff_cache
 *.tgz
