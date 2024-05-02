@@ -18,7 +18,6 @@ cp -r ./build/py/guardrails_hub_types/py.typed ./resources/py/guardrails_hub_typ
 cp -r ./build/py/docs/* ./resources/py/docs;
 cp -r ./build/py/.gitignore ./resources/py;
 cp -r ./build/py/requirements.txt ./resources/py;
-cp -r ./build/py/setup.py ./resources/py;
 
 # Navigate to Typescript directory
 cd ./resources/py;

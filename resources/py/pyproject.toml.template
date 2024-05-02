@@ -7,9 +7,7 @@ authors = [
 ]
 license = {file = "LICENSE"}
 readme = "README.md"
-repository = "https://github.com/guardrails-ai/hub-types"
 keywords = ["Guardrails", "Guardrails AI", "Guardrails Hub", "Guardrails Hub Types"]
-include = ["guardrails_hub_types/py.typed"]
 requires-python = ">= 3.8.1"
 dependencies = []
 
@@ -29,4 +27,4 @@ testpaths = [
 ]
 
 [tool.pyright]
-include = ["validator"]
+include = ["guardrails_hub_types"]
