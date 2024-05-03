@@ -24,7 +24,7 @@ async function bundleSchemas () {
   // return bundle(manifestSchema.$id);
 
   // We have to use these customizations for the Python generator
-  return bundleJsonSchema('https://raw.githubusercontent.com/guardrails-ai/interfaces/hub-integration/schemas/hub/manifest.json')
+  return bundleJsonSchema('https://raw.githubusercontent.com/guardrails-ai/interfaces/main/schemas/hub/manifest.json')
 }
 
 async function validateSchema (schema) {
