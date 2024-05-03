@@ -5,12 +5,12 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**language** | **List[str]** |  | 
-**certification** | **List[str]** |  | 
-**content_type** | **List[str]** |  | 
-**infrastructure_requirements** | **List[str]** |  | 
-**risk_category** | **List[str]** |  | 
-**use_cases** | **List[str]** |  | 
+**language** | **List[str]** |  | [optional] 
+**certification** | **List[str]** |  | [optional] 
+**content_type** | **List[str]** |  | [optional] 
+**infrastructure_requirements** | **List[str]** |  | [optional] 
+**risk_category** | **List[str]** |  | [optional] 
+**use_cases** | **List[str]** |  | [optional] 
 
 ## Example
 

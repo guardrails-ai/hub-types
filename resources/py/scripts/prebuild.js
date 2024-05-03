@@ -83,9 +83,30 @@ setup(
   )
 }
 
+function exportAll () {
+  const initPy = fs.readFileSync('./guardrails_hub_types/__init__.py').toString();
+
+  const importLines = initPy
+    .split('\n')
+    .filter(l => l.startsWith('from') && l.includes('import'));
+  
+  const exportables = importLines
+    .map(l => l.split('import').at(1)?.trim())
+    .filter(l => l && l?.length > 0);
+
+  const updatedInitPy = `${initPy}\n\n__all__ = [\n${
+    exportables
+    .map(e => `\t"${e}",`)
+    .join('\n')
+  }\n]`;
+
+  fs.writeFileSync('./guardrails_hub_types/__init__.py', updatedInitPy)
+}
+
 function main () {
   buildReadme();
   updateDependencies();
   buildSetupPy();
+  exportAll();
 }
 main();

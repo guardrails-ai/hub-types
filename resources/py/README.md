@@ -10,6 +10,7 @@ Internal data structures for the Guardrails Hub.
  - [Core](docs/Core.md)';
  - [FormatAnnotation](docs/FormatAnnotation.md)';
  - [Manifest](docs/Manifest.md)';
+ - [ManifestParameters](docs/ManifestParameters.md)';
  - [MetaData](docs/MetaData.md)';
  - [ModelAuth](docs/ModelAuth.md)';
  - [ModelSchema](docs/ModelSchema.md)';

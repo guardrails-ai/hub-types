@@ -44,7 +44,7 @@ Manifest
 
 #### Defined in
 
-Manifest.ts:55
+Manifest.ts:58
 
 ___
 
@@ -60,7 +60,7 @@ Manifest
 
 #### Defined in
 
-Manifest.ts:49
+Manifest.ts:52
 
 ___
 
@@ -76,7 +76,7 @@ Manifest
 
 #### Defined in
 
-Manifest.ts:91
+Manifest.ts:94
 
 ___
 
@@ -92,7 +92,7 @@ Manifest
 
 #### Defined in
 
-Manifest.ts:121
+Manifest.ts:124
 
 ___
 
@@ -108,7 +108,7 @@ Manifest
 
 #### Defined in
 
-Manifest.ts:37
+Manifest.ts:40
 
 ___
 
@@ -124,7 +124,7 @@ Manifest
 
 #### Defined in
 
-Manifest.ts:115
+Manifest.ts:118
 
 ___
 
@@ -140,7 +140,7 @@ Manifest
 
 #### Defined in
 
-Manifest.ts:61
+Manifest.ts:64
 
 ___
 
@@ -158,7 +158,7 @@ Manifest
 
 #### Defined in
 
-Manifest.ts:139
+Manifest.ts:142
 
 ___
 
@@ -174,7 +174,7 @@ Manifest
 
 #### Defined in
 
-Manifest.ts:85
+Manifest.ts:88
 
 ___
 
@@ -190,7 +190,7 @@ Manifest
 
 #### Defined in
 
-Manifest.ts:43
+Manifest.ts:46
 
 ___
 
@@ -206,7 +206,7 @@ Manifest
 
 #### Defined in
 
-Manifest.ts:73
+Manifest.ts:76
 
 ___
 
@@ -222,13 +222,13 @@ Manifest
 
 #### Defined in
 
-Manifest.ts:79
+Manifest.ts:82
 
 ___
 
 ### parameters
 
-• `Optional` **parameters**: [`Schema`](Schema.md)[]
+• `Optional` **parameters**: [`ManifestParameters`](ManifestParameters.md)
 
 **`Memberof`**
 
@@ -236,7 +236,7 @@ Manifest
 
 #### Defined in
 
-Manifest.ts:133
+Manifest.ts:136
 
 ___
 
@@ -252,7 +252,7 @@ Manifest
 
 #### Defined in
 
-Manifest.ts:127
+Manifest.ts:130
 
 ___
 
@@ -268,7 +268,7 @@ Manifest
 
 #### Defined in
 
-Manifest.ts:109
+Manifest.ts:112
 
 ___
 
@@ -284,7 +284,7 @@ Manifest
 
 #### Defined in
 
-Manifest.ts:67
+Manifest.ts:70
 
 ___
 
@@ -298,7 +298,7 @@ Manifest
 
 #### Defined in
 
-Manifest.ts:145
+Manifest.ts:148
 
 ___
 
@@ -314,13 +314,13 @@ Manifest
 
 #### Defined in
 
-Manifest.ts:103
+Manifest.ts:106
 
 ___
 
 ### tags
 
-• **tags**: [`Tags`](Tags.md)
+• `Optional` **tags**: [`Tags`](Tags.md)
 
 **`Memberof`**
 
@@ -328,4 +328,4 @@ Manifest
 
 #### Defined in
 
-Manifest.ts:97
+Manifest.ts:100

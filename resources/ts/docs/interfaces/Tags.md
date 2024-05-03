@@ -21,7 +21,7 @@ Tags
 
 ### certification
 
-• **certification**: ``"Guardrails Certified"``[]
+• `Optional` **certification**: ``"Guardrails Certified"``[]
 
 **`Memberof`**
 
@@ -35,7 +35,7 @@ ___
 
 ### contentType
 
-• **contentType**: [`TagsContentTypeEnum`](../modules.md#tagscontenttypeenum)[]
+• `Optional` **contentType**: [`TagsContentTypeEnum`](../modules.md#tagscontenttypeenum)[]
 
 **`Memberof`**
 
@@ -49,7 +49,7 @@ ___
 
 ### infrastructureRequirements
 
-• **infrastructureRequirements**: [`TagsInfrastructureRequirementsEnum`](../modules.md#tagsinfrastructurerequirementsenum)[]
+• `Optional` **infrastructureRequirements**: [`TagsInfrastructureRequirementsEnum`](../modules.md#tagsinfrastructurerequirementsenum)[]
 
 **`Memberof`**
 
@@ -63,7 +63,7 @@ ___
 
 ### language
 
-• **language**: [`TagsLanguageEnum`](../modules.md#tagslanguageenum)[]
+• `Optional` **language**: [`TagsLanguageEnum`](../modules.md#tagslanguageenum)[]
 
 **`Memberof`**
 
@@ -77,7 +77,7 @@ ___
 
 ### riskCategory
 
-• **riskCategory**: [`TagsRiskCategoryEnum`](../modules.md#tagsriskcategoryenum)[]
+• `Optional` **riskCategory**: [`TagsRiskCategoryEnum`](../modules.md#tagsriskcategoryenum)[]
 
 **`Memberof`**
 
@@ -91,7 +91,7 @@ ___
 
 ### useCases
 
-• **useCases**: [`TagsUseCasesEnum`](../modules.md#tagsusecasesenum)[]
+• `Optional` **useCases**: [`TagsUseCasesEnum`](../modules.md#tagsusecasesenum)[]
 
 **`Memberof`**
 

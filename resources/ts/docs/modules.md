@@ -12,6 +12,7 @@
 - [Core](interfaces/Core.md)
 - [FormatAnnotation](interfaces/FormatAnnotation.md)
 - [Manifest](interfaces/Manifest.md)
+- [ManifestParameters](interfaces/ManifestParameters.md)
 - [MetaData](interfaces/MetaData.md)
 - [ModelAuth](interfaces/ModelAuth.md)
 - [Repository](interfaces/Repository.md)
@@ -62,6 +63,9 @@
 - [FormatAnnotationToJSON](modules.md#formatannotationtojson)
 - [ManifestFromJSON](modules.md#manifestfromjson)
 - [ManifestFromJSONTyped](modules.md#manifestfromjsontyped)
+- [ManifestParametersFromJSON](modules.md#manifestparametersfromjson)
+- [ManifestParametersFromJSONTyped](modules.md#manifestparametersfromjsontyped)
+- [ManifestParametersToJSON](modules.md#manifestparameterstojson)
 - [ManifestToJSON](modules.md#manifesttojson)
 - [MetaDataFromJSON](modules.md#metadatafromjson)
 - [MetaDataFromJSONTyped](modules.md#metadatafromjsontyped)
@@ -96,6 +100,7 @@
 - [instanceOfCore](modules.md#instanceofcore)
 - [instanceOfFormatAnnotation](modules.md#instanceofformatannotation)
 - [instanceOfManifest](modules.md#instanceofmanifest)
+- [instanceOfManifestParameters](modules.md#instanceofmanifestparameters)
 - [instanceOfMetaData](modules.md#instanceofmetadata)
 - [instanceOfModelAuth](modules.md#instanceofmodelauth)
 - [instanceOfRepository](modules.md#instanceofrepository)
@@ -311,7 +316,7 @@ ___
 | `Llm` | ``"LLM"`` |
 | `Ml` | ``"ML"`` |
 | `Na` | ``"NA"`` |
-| `Rule` | ``"rule"`` |
+| `Rule` | ``"Rule"`` |
 
 #### Defined in
 
@@ -717,7 +722,7 @@ ___
 
 #### Defined in
 
-Manifest.ts:166
+Manifest.ts:168
 
 ___
 
@@ -738,7 +743,68 @@ ___
 
 #### Defined in
 
-Manifest.ts:170
+Manifest.ts:172
+
+___
+
+### ManifestParametersFromJSON
+
+▸ **ManifestParametersFromJSON**(`json`): [`ManifestParameters`](interfaces/ManifestParameters.md)
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `json` | `any` |
+
+#### Returns
+
+[`ManifestParameters`](interfaces/ManifestParameters.md)
+
+#### Defined in
+
+ManifestParameters.ts:44
+
+___
+
+### ManifestParametersFromJSONTyped
+
+▸ **ManifestParametersFromJSONTyped**(`json`, `ignoreDiscriminator`): [`ManifestParameters`](interfaces/ManifestParameters.md)
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `json` | `any` |
+| `ignoreDiscriminator` | `boolean` |
+
+#### Returns
+
+[`ManifestParameters`](interfaces/ManifestParameters.md)
+
+#### Defined in
+
+ManifestParameters.ts:48
+
+___
+
+### ManifestParametersToJSON
+
+▸ **ManifestParametersToJSON**(`value?`): `any`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `value?` | ``null`` \| [`ManifestParameters`](interfaces/ManifestParameters.md) |
+
+#### Returns
+
+`any`
+
+#### Defined in
+
+ManifestParameters.ts:61
 
 ___
 
@@ -758,7 +824,7 @@ ___
 
 #### Defined in
 
-Manifest.ts:208
+Manifest.ts:210
 
 ___
 
@@ -1083,7 +1149,7 @@ ___
 
 #### Defined in
 
-Tags.ts:152
+Tags.ts:146
 
 ___
 
@@ -1104,7 +1170,7 @@ ___
 
 #### Defined in
 
-Tags.ts:156
+Tags.ts:150
 
 ___
 
@@ -1124,7 +1190,7 @@ ___
 
 #### Defined in
 
-Tags.ts:173
+Tags.ts:172
 
 ___
 
@@ -1439,7 +1505,29 @@ Check if a given object implements the Manifest interface.
 
 #### Defined in
 
-Manifest.ts:151
+Manifest.ts:154
+
+___
+
+### instanceOfManifestParameters
+
+▸ **instanceOfManifestParameters**(`value`): `boolean`
+
+Check if a given object implements the ManifestParameters interface.
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `value` | `Object` |
+
+#### Returns
+
+`boolean`
+
+#### Defined in
+
+ManifestParameters.ts:40
 
 ___
 

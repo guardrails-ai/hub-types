@@ -15,13 +15,13 @@ Name | Type | Description | Notes
 **package_name** | **str** | The python package name for this validator; typically the same as the repository name and the suffix of the id. | 
 **module_name** | **str** | The python module name for this validator; typically \&quot;validator\&quot; | 
 **exports** | **List[str]** | The exports from the validator module; typically at least the validator&#39;s class name. | 
-**tags** | [**Tags**](Tags.md) |  | 
+**tags** | [**Tags**](Tags.md) |  | [optional] 
 **requires_auth** | **bool** | Indicates whether the user must be authenticated to install this validator. | [optional] [default to True]
 **post_install** | **str** | The file path, relative to the module directory, to the post-install script for this validator. | [optional] [default to 'post-install.py']
 **index** | **str** | The file path, relative to the module directory, to the index file for this validator. | [optional] [default to '__init__.py']
 **featured** | **bool** | Indicates whether this validator is currently featured. | [optional] [default to False]
 **playground_enabled** | **bool** | Indicates whether this validator can be used in the Guardrails Hub Playground. | [optional] [default to False]
-**parameters** | [**List[ModelSchema]**](ModelSchema.md) |  | [optional] 
+**parameters** | [**ManifestParameters**](ManifestParameters.md) |  | [optional] 
 **metadata** | **object** |  | [optional] 
 **required_model_auth** | [**List[ModelAuth]**](ModelAuth.md) |  | [optional] 
 
