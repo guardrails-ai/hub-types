@@ -8,12 +8,12 @@ function buildReadme () {
 Internal data structures for the Guardrails Hub.
 
 ## Installation
-\```sh
+\`\`\`sh
 pip install guardrails-hub-types
-\```
+\`\`\`
 
 ## Development
-\```sh
+\`\`\`sh
 git clone https://github.com/guardrails-ai/hub-types.git
 
 cd hub-types
@@ -23,7 +23,7 @@ npm ci
 npm run openapi-gen
 
 bash ./py-build.sh
-\```
+\`\`\`
 
 ## Documentation For Models
 
