@@ -7,12 +7,30 @@ function buildReadme () {
 
 Internal data structures for the Guardrails Hub.
 
+## Installation
+\```sh
+pip install guardrails-hub-types
+\```
+
+## Development
+\```sh
+git clone https://github.com/guardrails-ai/hub-types.git
+
+cd hub-types
+
+npm ci
+
+npm run openapi-gen
+
+bash ./py-build.sh
+\```
+
 ## Documentation For Models
 
 ${
   files
     .map(f => f.split('.').at(0))
-    .map(f => ` - [${f}](docs/${f}.md)';`)
+    .map(f => ` - [${f}](https://github.com/guardrails-ai/hub-types/tree/main/resources/py/docs/${f}.md);`)
     .join('\n')
 }
   `;

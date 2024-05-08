@@ -17,5 +17,7 @@ cd hub-types
 
 npm ci
 
+npm run openapi-gen
+
 bash ./ts-build.sh
 ```
