@@ -1,0 +1,13 @@
+.venv
+node_modules
+dist
+build
+resources/ts/src
+resources/ts/dist
+resources/py/pyproject.toml
+resources/py/guardrails_hub_types
+resources/py/.gitignore
+resources/py/requirements.txt
+resources/py/setup.py
+resources/py/.ruff_cache
+*.tgz
