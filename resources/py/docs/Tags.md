@@ -9,6 +9,7 @@ Name | Type | Description | Notes
 **certification** | **List[str]** |  | [optional] 
 **content_type** | **List[str]** |  | [optional] 
 **infrastructure_requirements** | **List[str]** |  | [optional] 
+**has_guardrails_endpoint** | **bool** | Indicates whether validator has a Guardrails endpoint | [optional] [default to False]
 **risk_category** | **List[str]** |  | [optional] 
 **use_cases** | **List[str]** |  | [optional] 
 

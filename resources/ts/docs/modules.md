@@ -143,9 +143,9 @@ ___
 
 #### Defined in
 
-Tags.ts:72
+Tags.ts:78
 
-Tags.ts:75
+Tags.ts:81
 
 ___
 
@@ -155,9 +155,9 @@ ___
 
 #### Defined in
 
-Tags.ts:81
+Tags.ts:87
 
-Tags.ts:92
+Tags.ts:98
 
 ___
 
@@ -167,9 +167,9 @@ ___
 
 #### Defined in
 
-Tags.ts:98
-
 Tags.ts:104
+
+Tags.ts:110
 
 ___
 
@@ -179,9 +179,9 @@ ___
 
 #### Defined in
 
-Tags.ts:62
+Tags.ts:68
 
-Tags.ts:66
+Tags.ts:72
 
 ___
 
@@ -191,9 +191,9 @@ ___
 
 #### Defined in
 
-Tags.ts:110
+Tags.ts:116
 
-Tags.ts:120
+Tags.ts:126
 
 ___
 
@@ -203,9 +203,9 @@ ___
 
 #### Defined in
 
-Tags.ts:126
+Tags.ts:132
 
-Tags.ts:136
+Tags.ts:142
 
 ## Variables
 
@@ -269,9 +269,9 @@ ___
 
 #### Defined in
 
-Tags.ts:72
+Tags.ts:78
 
-Tags.ts:75
+Tags.ts:81
 
 ___
 
@@ -297,9 +297,9 @@ ___
 
 #### Defined in
 
-Tags.ts:81
+Tags.ts:87
 
-Tags.ts:92
+Tags.ts:98
 
 ___
 
@@ -320,9 +320,9 @@ ___
 
 #### Defined in
 
-Tags.ts:98
-
 Tags.ts:104
+
+Tags.ts:110
 
 ___
 
@@ -341,9 +341,9 @@ ___
 
 #### Defined in
 
-Tags.ts:62
+Tags.ts:68
 
-Tags.ts:66
+Tags.ts:72
 
 ___
 
@@ -368,9 +368,9 @@ ___
 
 #### Defined in
 
-Tags.ts:110
+Tags.ts:116
 
-Tags.ts:120
+Tags.ts:126
 
 ___
 
@@ -395,9 +395,9 @@ ___
 
 #### Defined in
 
-Tags.ts:126
+Tags.ts:132
 
-Tags.ts:136
+Tags.ts:142
 
 ## Functions
 
@@ -824,7 +824,7 @@ ___
 
 #### Defined in
 
-Manifest.ts:210
+Manifest.ts:213
 
 ___
 
@@ -1149,7 +1149,7 @@ ___
 
 #### Defined in
 
-Tags.ts:146
+Tags.ts:152
 
 ___
 
@@ -1170,7 +1170,7 @@ ___
 
 #### Defined in
 
-Tags.ts:150
+Tags.ts:156
 
 ___
 
@@ -1190,7 +1190,7 @@ ___
 
 #### Defined in
 
-Tags.ts:172
+Tags.ts:182
 
 ___
 
@@ -1657,7 +1657,7 @@ Check if a given object implements the Tags interface.
 
 #### Defined in
 
-Tags.ts:142
+Tags.ts:148
 
 ___
 
