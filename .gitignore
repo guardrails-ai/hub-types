@@ -11,3 +11,4 @@ resources/py/requirements.txt
 resources/py/setup.py
 resources/py/.ruff_cache
 *.tgz
+.python-version

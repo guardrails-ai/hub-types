@@ -12,6 +12,7 @@ Tags
 
 - [certification](Tags.md#certification)
 - [contentType](Tags.md#contenttype)
+- [hasGuardrailsEndpoint](Tags.md#hasguardrailsendpoint)
 - [infrastructureRequirements](Tags.md#infrastructurerequirements)
 - [language](Tags.md#language)
 - [riskCategory](Tags.md#riskcategory)
@@ -44,6 +45,22 @@ Tags
 #### Defined in
 
 Tags.ts:38
+
+___
+
+### hasGuardrailsEndpoint
+
+• `Optional` **hasGuardrailsEndpoint**: `boolean`
+
+Indicates whether validator has a Guardrails endpoint
+
+**`Memberof`**
+
+Tags
+
+#### Defined in
+
+Tags.ts:50
 
 ___
 
@@ -85,7 +102,7 @@ Tags
 
 #### Defined in
 
-Tags.ts:50
+Tags.ts:56
 
 ___
 
@@ -99,4 +116,4 @@ Tags
 
 #### Defined in
 
-Tags.ts:56
+Tags.ts:62

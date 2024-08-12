@@ -22,7 +22,7 @@ Name | Type | Description | Notes
 **featured** | **bool** | Indicates whether this validator is currently featured. | [optional] [default to False]
 **playground_enabled** | **bool** | Indicates whether this validator can be used in the Guardrails Hub Playground. | [optional] [default to False]
 **parameters** | [**ManifestParameters**](ManifestParameters.md) |  | [optional] 
-**metadata** | **object** |  | [optional] 
+**metadata** | [**ManifestParameters**](ManifestParameters.md) |  | [optional] 
 **required_model_auth** | [**List[ModelAuth]**](ModelAuth.md) |  | [optional] 
 
 ## Example
